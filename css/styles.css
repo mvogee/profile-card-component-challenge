@@ -1,0 +1,16 @@
+body {
+  background: blue;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+}
+
+img {
+    border-radius: 100px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
