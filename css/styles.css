@@ -1,16 +1,60 @@
 body {
-  background: blue;
+  background-color: hsl(185, 75%, 39%);
 }
 
 h1 {
-  font-size: 20px;
-  font-family: arial, sans-serif;
+  font-size: 18px;
+  display: inline;
 }
 
-img {
+.card-stat {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile-picture {
     border-radius: 100px;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
 }
 
+.card {
+  width: 350px;
+  background-color: white;
+  border-radius: 18px;
+  font-family: 'kumbh sans', sans-serif;
+  text-align: center;
+  margin: 200px auto;
+}
+.top-texture img{
+  border-radius: 18px 18px 0 0;
+  margin-bottom: -55px;
+}
+.age {
+  display: inline;
+}
+.card-stat-description {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.user-followers {
+  display: inline-block;
+  margin-right: 30px;
+}
+.user-likes {
+  display: inline-block;
+  margin-right: 30px;
+}
+.user-photos {
+  display: inline-block;
+}
+
+.background-img {
+  display: inline;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
