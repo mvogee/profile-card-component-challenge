@@ -2,14 +2,25 @@ body {
   background-color: hsl(185, 75%, 39%);
 }
 
-h1 {
-  font-size: 18px;
-  display: inline;
-}
 
 .card-stat {
   font-weight: bold;
   font-size: 18px;
+}
+
+.card {
+  width: 350px;
+  background-color: white;
+  border-radius: 18px;
+  font-family: 'kumbh sans', sans-serif;
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+  margin: 200px auto;
+}
+
+.top-texture img{
+  border-radius: 18px 18px 0 0;
+  margin-bottom: -55px;
 }
 
 .profile-picture {
@@ -20,24 +31,27 @@ h1 {
     background-color: white;
 }
 
-.card {
-  width: 350px;
-  background-color: white;
-  border-radius: 18px;
-  font-family: 'kumbh sans', sans-serif;
-  text-align: center;
-  margin: 200px auto;
+.name {
+  margin-top: 18px;
+  font-size: 18px;
+  display: inline-block;
 }
-.top-texture img{
-  border-radius: 18px 18px 0 0;
-  margin-bottom: -55px;
-}
+
 .age {
   display: inline;
+  color: hsl(227, 10%, 46%);
 }
+
+.city {
+  margin-top: 5px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
 .card-stat-description {
   font-weight: lighter;
   font-size: 16px;
+  color: hsl(227, 10%, 46%);
 }
 
 .user-followers {
