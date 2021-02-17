@@ -1,4 +1,6 @@
 body {
+  min-height: 100vh;
+  overflow: hidden;
   background-color: hsl(185, 75%, 39%);
 }
 
@@ -120,5 +122,9 @@ hr {
   border-left: none;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
